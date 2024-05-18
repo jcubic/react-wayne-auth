@@ -20,3 +20,7 @@ app.post('/api/login', async (req, res) => {
         res.json({ error: 'Invalid username or password' });
     }
 });
+
+self.addEventListener('activate', (event) => {
+  event.waitUntil(clients.claim());
+});
