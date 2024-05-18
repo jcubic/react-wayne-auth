@@ -19,5 +19,6 @@ export default defineConfig({
         });
       }
     }
-  ]
+  ],
+  base: process.env.GH_PAGES ? '/react-wayne-auth/' : '/'
 });
