@@ -42,7 +42,7 @@
 }
 
 form {
-  display: flex;
+  display: inline-flex;
   flex-direction: column;
   gap: 10px;
   align-items: flex-end;
